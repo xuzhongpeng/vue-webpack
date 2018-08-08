@@ -1,11 +1,11 @@
 {
-  "name": "ty-vue-ui",
+  "name": "vue-webpack",
   "version": "1.0.3",
   "description": "used to vue ui",
   "main": "dist/js/ty-vue-ui.min.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --config webpack.config.dev.js",
-    "dev": "webpack --mode development --module-bind js=babel-loader --config webpack.config.dev.js",
+    "start": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "dev": "webpack --mode development --module-bind js=babel-loader --config webpack.config.js",
     "build": "webpack --mode production --module-bind js=babel-loader"
   },
   "devDependencies": {
