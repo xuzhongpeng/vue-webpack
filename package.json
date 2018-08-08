@@ -1,0 +1,39 @@
+{
+  "name": "ty-vue-ui",
+  "version": "1.0.3",
+  "description": "used to vue ui",
+  "main": "dist/js/ty-vue-ui.min.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --config webpack.config.dev.js",
+    "dev": "webpack --mode development --module-bind js=babel-loader --config webpack.config.dev.js",
+    "build": "webpack --mode production --module-bind js=babel-loader"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-notifier": "^5.2.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "url-loader": "^1.0.1",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.2.4",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
